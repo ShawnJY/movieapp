@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131720;
+    font-family: sans-serif;
+    color:white;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+h2{
+    padding-left: 20px;
+}
+
+h3 {
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis (...) if the text is too long */
+    white-space: nowrap; /* Prevent text from wrapping to a new line */
+}
+
+.topnav {
+    background-color: #131720;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.topnav a {
+    position: relative;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+form {
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input#query {
+    all: unset;
+    font: 15px system-ui;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+input.review-input, input.new_review, input.new_user{
+    color: black;
+    font: 15px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.thumbnail {
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.card {
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+    
+}
+
+.reviews {
+    color:lightblue;
+    cursor: pointer;
+    text-decoration: none;
+}
