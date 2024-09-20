@@ -1,4 +1,7 @@
-const API_KEY = '43a400cdd80b3e4fe21d04ccb2f076ce'
+import dotenv from "dotenv"
+dotenv.config()
+
+const API_KEY = process.env.APIKEY
 const APILiNK = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}&page=1`;
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280';
 const SEARCHAPI = `https://api.themoviedb.org/3/search/movie?&api_key=${API_KEY}&query=`;
